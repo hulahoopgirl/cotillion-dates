@@ -1,0 +1,4 @@
+ACCESS_PASSWORD=cotillion123
+SESSION_SECRET=superdupersecretstring
+PORT=3000
+DB_PATH=cotillion.db

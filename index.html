@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Cotillion Board</title>
+  <link rel="stylesheet" href="/public/style.css"/>
+</head>
+<body>
+  <h1>Cotillion Board</h1>
+
+  <section id="authPanel">
+    <h2>Sign up or Sign in</h2>
+    <input id="nameInput" placeholder="Name">
+    <input id="codeInput" type="password" placeholder="Secret code">
+    <select id="genderSelect">
+      <option value="">Choose gender…</option>
+      <option value="girl">Girl</option>
+      <option value="guy">Guy</option>
+    </select>
+    <button id="signupBtn">Sign up</button>
+    <button id="signinBtn">Sign in</button>
+    <div id="authError"></div>
+  </section>
+
+  <section id="appPanel" style="display:none">
+    <div id="meInfo"></div>
+    <h2>People</h2>
+    <div id="members"></div>
+  </section>
+
+  <script src="/public/app.js"></script>
+</body>
+</html>
